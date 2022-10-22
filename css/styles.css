@@ -1,0 +1,270 @@
+/* start main rules */
+body{
+    /* background-color: rgb(235, 155, 99);
+    background-image: linear-gradient(rgb(235, 155, 99),#d8f0d8); */
+    background-image: url("../images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    font-family: sans-serif;
+    color:#fff;
+}
+/* end main rules */
+
+/* start header */
+.header .slider{
+    overflow: hidden;
+    height: 600px;
+    background-image: url("../images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+    background-size: cover;
+}
+
+.header .slider .intro{
+    text-align: center;
+    color: #fff;
+    height: 600px;
+}
+
+.header .slider .intro h3{
+    margin: 0 auto;
+    margin-top: 200px;
+    font:normal 40px sans-serif;
+    width: 600px;
+    border-top: 4px solid #fff;
+    border-bottom: 4px solid #fff;
+}
+
+.header .slider .intro p{
+    margin: 0 auto;
+    font: normal 19px sans-serif;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.header .slider .intro button{
+    margin: 0 auto;
+    margin-top: 15px;
+    width:130px;
+    padding: 3px;
+    font: normal 19px sans-serif;
+    background:none;
+    border: 1px solid #32CD32;
+    color: #fff;
+}
+
+.header .slider .intro button:hover{
+    background-color: #252f31;
+    cursor: pointer;
+}
+
+
+.nav{
+    overflow: hidden;
+    background-color: #252f31;
+    font-family: sans-serif;
+}
+
+.nav h2{
+    color: #32CD32;
+    float: left;
+}
+
+.nav ul{
+    list-style: none;
+    color: #fff;
+    float: right;
+}
+.nav ul a{
+    text-decoration: none;
+    color: #fff;
+}
+.nav ul a:hover{
+    color:#32CD32;
+}
+.header .nav ul li{
+    display: inline-block;
+    padding: 9px;
+    margin-left:30px ;
+}
+/* end header */
+
+
+
+/* start home menus */
+.homeMenus{
+    overflow: hidden;
+    text-align: center;
+}
+.homeMenus .menus{
+    overflow: hidden;
+    margin-top: 20px;
+    font: normal 15px sans-serif;
+}
+
+.homeMenus .menus .menu{
+    overflow: hidden;
+    width: 30%;
+    padding: 21.4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    /* float: left; */
+}
+
+.homeMenus .menus .menu:hover{
+    opacity: .7;
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 5px;
+}
+
+.homeMenus .menus .menu img{
+    width: 100%;
+    height: 350px;
+}
+
+.homeMenus .menus .menu h3,.price{
+    display: inline-block;
+}
+.homeMenus .menus .menu h3{
+    margin-right: 80px;
+}
+
+.homeMenus .menus .menu .price{
+    padding: 10px;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    color: goldenrod;
+    border-radius: 30px;
+}
+/* end home menus */
+
+
+
+/* start about */
+.about{
+    width: 100%;
+    background-color: rgb(194, 196, 198);
+    overflow: hidden;
+}
+
+.about .content{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.about .content .para{
+    width: 70%;
+    margin: 50px auto;
+}
+
+.about .content .someInfo{
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.about .content .someInfo .one,.two,.three{
+    width: 33.33333%;
+    height: 170px;
+    float: left;
+}
+
+.about .content .someInfo .one h3,.two h3,.three h3{
+    font: normal 25px sans-serif;
+}
+.about .content .someInfo .one p,.two p,.three p{
+    padding: 5px;
+    font: normal 15px sans-serif;
+}
+
+.about .content hr{
+    border: 1px solid black;
+}
+/* end about */
+
+
+/* start staff */
+.staff{
+    overflow: hidden;
+    font-family: sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.staff .staffData,.staffData2{
+    overflow: hidden;
+}
+
+.staff .staffData .data{
+    width: 30%;
+    padding: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.staff .staffData .data:hover,.staffData2 .data2:hover{
+    opacity: .7;
+    box-shadow: 10px 10px 15px grey;
+    border-radius: 5px;
+}
+
+.staff .staffData .data img{
+    width: 100%;
+    height: 400px;
+}
+
+.staff .staffData2 .data2{
+    width: 46.5%;
+    display: inline-block;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+
+.staff .staffData2 .data2 img{
+    width: 100%;
+    height: 400px;
+}
+
+.staff .staffData .data h3,.staffData2 .data2 h3{
+    color: rgb(190, 140, 46);
+}
+/* end staff */
+
+
+/* start footer */
+.footer{
+    overflow: hidden;
+    background-image: url("../images/daan-evers-tKN1WXrzQ3s-unsplash.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+.footer .info{
+    overflow: hidden;
+}
+
+.footer .info .infoData{
+    width: 33.333333%;
+    height: 200px;
+    float: left;
+    /* display: inline-block; */
+}
+
+
+.copy{
+    color: #fff;
+    background-color: #252f31;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    font: normal 25px sans-serif;
+}
+/* end footer */

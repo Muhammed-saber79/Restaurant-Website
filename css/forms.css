@@ -1,0 +1,124 @@
+.container{
+    background-image: url("../images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 1000px;
+}
+
+.container .content{
+    width: 80%;
+    margin: 20px auto;
+    height: 55%;
+}
+
+.container .content .left, .right{
+    margin-top: 90px;
+    width: 50%;
+    height: 100%;
+}
+
+.container .content .left{
+    float: left;
+    background-image: linear-gradient(#c2e59c,#64b3f4)
+}
+
+.container .content .right{
+    float: right;
+    background-image: url("../images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg");
+    background-size: cover;
+}
+
+
+.container .content .left{
+    font-family: sans-serif;
+}
+
+.container .content .left h1,h3,p{
+    padding-left: 15px;
+    
+}
+
+.container .content .left h1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container .content .left h3,p{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.container .content .left p{
+    margin-bottom: 25px;
+    color: rgb(147, 150, 153);
+}
+
+.container .content .left form{
+    padding-left: 15px;
+}
+
+.container .content .left form label,input,.box{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.container .content .left form input[type=email],input[type=password],input[type=text],input[type=file],select{
+    font: normal 15px sans-serif;
+    width: 97%;
+    border: 1px solid green;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+}
+
+.container .content .left form .box input[type=checkbox]{
+    margin: 0px;
+    padding: 0%;
+}
+
+.container .content .left form .box{
+    width: 97%;
+    margin-bottom: 40px;
+}
+
+.container .content .left form .box .check{
+    float: left;
+    width: 45%;
+}
+.container .content .left form .box .check input[type=checkbox]:hover{
+    cursor: pointer;
+}
+.container .content .left form .box a{
+    float: right;
+}
+
+
+.container .content .left form input[type=submit]{
+    font: bold 15px sans-serif;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+    margin: 20px auto;
+    background-color: transparent;
+}
+
+.container .content .left form input[type=submit]:hover{
+    background-color: #32CD32;
+    cursor: pointer;
+    color: #fff;
+}
+
+.container .content .left form .para{
+    color: rgb(147, 150, 153);
+}
+
+.container .content .left form a{
+    text-decoration: none;
+}

@@ -1,0 +1,85 @@
+.contain .content{
+    width: 80%;
+    margin: 40px auto;
+    height: 55%;
+}
+
+.contain .content .left, .right{
+    width: 50%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.contain .content .left{
+    float: left;
+    background-color: rgb(237, 229, 229);
+}
+
+.contain .content .right{
+    float: right;
+    background-image: linear-gradient(#c2e59c,#64b3f4)
+}
+
+.contain .content .right p, h2, .infodat{
+    margin: 20px auto;
+    padding: 15px;
+    padding-top: px;
+}
+
+
+.contain .content .right .infodat .inf{
+   padding-top: 15px;
+}
+
+
+
+.contain .content .left h2{
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #32CD32;
+}
+
+
+
+.contain .content .left form{
+    padding-left: 15px;
+    color: rgb(69, 73, 72);
+}
+
+
+.contain .content .left form input[type=email],input[type=text],textarea{
+    font: normal 15px sans-serif;
+    width: 97%;
+    border: 1px solid green;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+.contain .content .left form textarea{
+    height: 50px;
+}
+
+
+
+
+.contain .content .left form input[type=submit]{
+    font: bold 15px sans-serif;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 3px;
+    height: 30px;
+    padding: 5px;
+    margin: 20px auto;
+    background-color: transparent;
+}
+
+.contain .content .left form input[type=submit]:hover{
+    background-color: #32CD32;
+    cursor: pointer;
+    color: #fff;
+}
